@@ -1,0 +1,3283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ares\Commands\AIBasePlan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\AIControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\Commands.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\Debugging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\DumpMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\DumpTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\FPSCounter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\FrameByFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\Logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\MapSnapshot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Commands\TogglePower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Enum\_Enumerator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Enum\ArmorTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Enum\Prerequisites.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Enum\RadTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Abstract\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\AnimType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Building\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\BuildingType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Bullet\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\BulletType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Campaign\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\House\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\House\MacroHacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\HouseType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Infantry\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Rules\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Side\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\SWType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\TAction\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Techno\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\TechnoType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\TEvent\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\Tiberium\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\WarheadType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\WeaponType\Body.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ext\_Container.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\ChronoSphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\ChronoWarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\Dominator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\DropPod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\EMPulse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\Firewall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\GenericWarhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\GeneticMutator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\HunterSeeker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\LightningStorm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\Nuke.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\ParaDrop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\Protect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\Reveal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\SonarPulse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\SpyPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes\UnitDelivery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Actions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\AttachEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Audio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\CSFLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\EMPulse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\EVAVoices.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Includes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\IniIteratorChar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\IniSectionIncludes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\JammerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\MapRevealer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\MoviesList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\PoweredUnitClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\RMG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Savegame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SavegameDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Skirmish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Status.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Surfaces.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\Swizzle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\SWTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\TestBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Misc\TrajectoryHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\UI\Dialogs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\UI\PopupMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\UI\registered.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\Constructs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\Enums.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\Helpers.Alex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\INIParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\Iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\Macro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\Parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\Template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Utilities\TemplateDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ares.base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ares.CRT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ares.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ares\Ares.version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitPlainXlat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitPlainXlatAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitPlainXlatZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitPlainXlatZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransDarken.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransDarkenZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransDarkenZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25Alpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25AlphaZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25AlphaZReadWarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25AlphaZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25ZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25ZReadWarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent25ZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50Alpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50AlphaZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50AlphaZReadWarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50AlphaZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTranslucent50NonzeroAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTranslucent50ZeroAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50ZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50ZReadWarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent50ZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75Alpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75AlphaZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75AlphaZReadWarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75AlphaZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75ZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75ZReadWarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransLucent75ZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTranslucentWriteAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransRemapDest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransRemapXlat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlatAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlatAlphaZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlatAlphaZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlatMultWriteAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlatWriteAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlatZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransXlatZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransZRemapXlat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransZRemapXlatAlpha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransZRemapXlatAlphaZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransZRemapXlatAlphaZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransZRemapXlatZRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Blitter\BlitTransZremapXlatZReadWrite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters\Includer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FileFormats\_Loader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FileFormats\HVA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FileFormats\SHP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FileFormats\VXL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\Cast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\ComPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\Enumerators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\EnumFlags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\Iterators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\Macro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Helpers\Template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AbstractClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AbstractTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AircraftClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AircraftTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AirstrikeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AITriggerTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AlphaShapeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AnimClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\AnimTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ArrayClasses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ASMMacros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Audio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BasicStructures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Blitters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BombClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BombListClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BounceClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BuildingClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BuildingLightClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BuildingTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BulletClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\BulletTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CampaignClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CaptureManagerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CCFileClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CCINIClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CellClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CellSpread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Checksummer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ColorScheme.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CommandClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Conversions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ConvertClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\CRT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\DiscreteDistributionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\DiscreteSelectionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\DiskLaserClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\DisplayClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Drawing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\EBolt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\EMPulseClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FactoryClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\fakewindows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FileSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FlyLocomotionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FootClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\FPSCounter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Fundamentals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GameClasses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GameModeOptionsClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GameOptionsClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GeneralDefinitions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GeneralStructures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GenericList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GetCDClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\GScreenClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\HouseClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\HouseTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\InfantryClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\InfantryTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\InputManagerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Interfaces.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Ion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\IonBlastClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\IsometricTileClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\IsometricTileTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Kamikaze.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\LaserDrawClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\LightSourceClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\LineTrail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\LinkClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\LoadOptionsClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\LoadProgressManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\LocomotionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MapClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MapSeedClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MessageBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MessageListClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MissionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MixFileClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MouseClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MPGameModeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\MPTeams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\NetworkEvents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Networking.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\NeuronClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Notifications.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ObjectClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ObjectTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\OverlayClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\OverlayTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ParasiteClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ParticleClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ParticleSystemClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ParticleSystemTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ParticleTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\PCX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\PlanningTokenClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\PowerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Powerups.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ProgressScreenClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ProgressTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\RadarClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\RadarEventClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\RadBeam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\RadioClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\RadSiteClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Randomizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\RocketLocomotionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\RulesClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ScenarioClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ScriptClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\ScriptTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SessionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SidebarClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SideClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SlaveManagerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SmudgeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SmudgeTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SpawnManagerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SpecificStructures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SpotlightClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\StringTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SuperClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SuperWeaponTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Surface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\SwizzleManagerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Syringe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TacticalClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TActionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TagClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TagTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TaskForceClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TeamClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TeamTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TechnoClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TechnoTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TeleportLocomotionClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TemporalClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TerrainClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TerrainTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TEventClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Theater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TiberiumClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TransitionTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TriggerClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\TriggerTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\UnitClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\UnitTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Unsorted.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\Vault.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\VocClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\VoxClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\VoxelAnimClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\VoxelAnimTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\VTables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\WarheadTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\WaveClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\WaypointPathClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\WeaponTypeClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\WOLAPIInterfaces.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\WWMouseClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\YRAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\YRCom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\YRDDraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\YRMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\YRMathVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\YRPP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YRPP\YRPPCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ares\Enum\ArmorTypes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Enum\Prerequisites.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Enum\RadTypes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Abstract\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\AnimType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\AnimType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.Firewall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.Foundation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.Gates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.Infiltrate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.Prism.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.Sensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\Hooks.Trenches.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Building\PrismForward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\BuildingType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\BuildingType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\BuildingType\PrismForward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Bullet\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Bullet\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\BulletType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\BulletType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Campaign\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\House\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\House\Hooks.100.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\House\Hooks.Academy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\House\Hooks.BasePlan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\House\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\House\Hooks.Firewall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\House\Hooks.Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\HouseType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\HouseType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Infantry\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Infantry\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Infantry\Hooks.Doggie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Infantry\Hooks.MakeInf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Infantry\Hooks.Saboteur.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Rules\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Rules\Hooks.CameoList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Rules\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Rules\Hooks.Dropships.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Side\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Side\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\SWType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\SWType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\SWType\Hooks.Legacy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\SWType\Hooks.Targeting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\SWType\Hooks.Update.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TAction\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TAction\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TAction\Hooks.Replacements.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Team\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Alpha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Ammo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Art.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Cloak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Crew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Cursor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Deactivated.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Firing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Gap.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.HunterSeeker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Insignia.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Prerequisites.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Sight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Spotlights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Tracers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Techno\Hooks.Veterancy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TechnoType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TechnoType\Hooks.Art.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TechnoType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Terrain\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TEvent\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\TEvent\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Tiberium\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\Tiberium\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WarheadType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WarheadType\Hooks.CellSpread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WarheadType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WarheadType\Hooks.EMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WarheadType\Hooks.Ion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WarheadType\Hooks.Verses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WeaponType\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WeaponType\Hooks.Beam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WeaponType\Hooks.Bolt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WeaponType\Hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WeaponType\Hooks.IvanBomb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WeaponType\Hooks.RadSite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\WeaponType\Hooks.Wave.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ext\_Container.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\ChronoSphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\ChronoWarp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\Dominator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\DropPod.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\EMPulse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\Firewall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\GenericWarhead.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\GeneticMutator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\HunterSeeker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\LightningStorm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\Nuke.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\ParaDrop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\Protect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\Reveal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\SonarPulse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\SpyPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes\UnitDelivery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Actions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\AttachEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Audio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Bugfixes.Buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Bugfixes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Bugfixes.Perf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Bugfixes.Safeguards.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Cameos.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Checksum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\CopyProtection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Crates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\CSFLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\CustomMissile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Debug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\EMPulse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\EVAVoices.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Exception.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Includes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\IniIteratorChar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\IniSectionIncludes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Interface.Buttons.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Interface.PlayerColors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Interface.UIColors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Invalidators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\JammerClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\MapRevealer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\MoviesList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Placeholders.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\PoweredUnitClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\RMG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Savegame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Skirmish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Status.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Surfaces.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\Swizzle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\SWTypes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\TestBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Misc\TrajectoryHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\UI\Dialogs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Utilities\Constructs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ares.Commands.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ares.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ares.CRT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ares.Ext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ares.GlobalControls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ares\Ares.UISettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YRPP\StaticInits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ares\UI\CampaignDialog.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Ares\UI\IEDialog.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Ares\UI\RMGDialog.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Ares\UI\SkirmishDialog.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Ares\ver.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\doxygen_settings" />
+    <None Include="lib\YRPP\Documentation\search\all_5f.html" />
+    <None Include="lib\YRPP\Documentation\search\all_6a.html" />
+    <None Include="lib\YRPP\Documentation\search\all_6b.html" />
+    <None Include="lib\YRPP\Documentation\search\all_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\all_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\all_6e.html" />
+    <None Include="lib\YRPP\Documentation\search\all_6f.html" />
+    <None Include="lib\YRPP\Documentation\search\all_7a.html" />
+    <None Include="lib\YRPP\Documentation\search\all_7e.html" />
+    <None Include="lib\YRPP\Documentation\search\all_61.html" />
+    <None Include="lib\YRPP\Documentation\search\all_62.html" />
+    <None Include="lib\YRPP\Documentation\search\all_63.html" />
+    <None Include="lib\YRPP\Documentation\search\all_64.html" />
+    <None Include="lib\YRPP\Documentation\search\all_65.html" />
+    <None Include="lib\YRPP\Documentation\search\all_66.html" />
+    <None Include="lib\YRPP\Documentation\search\all_67.html" />
+    <None Include="lib\YRPP\Documentation\search\all_68.html" />
+    <None Include="lib\YRPP\Documentation\search\all_69.html" />
+    <None Include="lib\YRPP\Documentation\search\all_70.html" />
+    <None Include="lib\YRPP\Documentation\search\all_71.html" />
+    <None Include="lib\YRPP\Documentation\search\all_72.html" />
+    <None Include="lib\YRPP\Documentation\search\all_73.html" />
+    <None Include="lib\YRPP\Documentation\search\all_74.html" />
+    <None Include="lib\YRPP\Documentation\search\all_75.html" />
+    <None Include="lib\YRPP\Documentation\search\all_76.html" />
+    <None Include="lib\YRPP\Documentation\search\all_77.html" />
+    <None Include="lib\YRPP\Documentation\search\all_78.html" />
+    <None Include="lib\YRPP\Documentation\search\all_79.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_5f.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_6e.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_6f.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_7a.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_61.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_62.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_63.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_64.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_65.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_66.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_67.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_68.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_69.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_70.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_72.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_73.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_74.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_75.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_76.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_77.html" />
+    <None Include="lib\YRPP\Documentation\search\classes_78.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_6a.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_6e.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_6f.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_7a.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_61.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_62.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_63.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_64.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_65.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_66.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_67.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_68.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_69.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_70.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_72.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_73.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_74.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_75.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_76.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_77.html" />
+    <None Include="lib\YRPP\Documentation\search\defines_78.html" />
+    <None Include="lib\YRPP\Documentation\search\enums_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\enums_65.html" />
+    <None Include="lib\YRPP\Documentation\search\enums_66.html" />
+    <None Include="lib\YRPP\Documentation\search\enums_72.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_6e.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_6f.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_61.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_62.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_63.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_64.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_65.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_66.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_67.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_68.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_69.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_70.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_72.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_73.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_74.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_75.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_77.html" />
+    <None Include="lib\YRPP\Documentation\search\enumvalues_79.html" />
+    <None Include="lib\YRPP\Documentation\search\files_5f.html" />
+    <None Include="lib\YRPP\Documentation\search\files_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\files_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\files_6e.html" />
+    <None Include="lib\YRPP\Documentation\search\files_6f.html" />
+    <None Include="lib\YRPP\Documentation\search\files_61.html" />
+    <None Include="lib\YRPP\Documentation\search\files_62.html" />
+    <None Include="lib\YRPP\Documentation\search\files_63.html" />
+    <None Include="lib\YRPP\Documentation\search\files_64.html" />
+    <None Include="lib\YRPP\Documentation\search\files_65.html" />
+    <None Include="lib\YRPP\Documentation\search\files_66.html" />
+    <None Include="lib\YRPP\Documentation\search\files_67.html" />
+    <None Include="lib\YRPP\Documentation\search\files_68.html" />
+    <None Include="lib\YRPP\Documentation\search\files_69.html" />
+    <None Include="lib\YRPP\Documentation\search\files_70.html" />
+    <None Include="lib\YRPP\Documentation\search\files_72.html" />
+    <None Include="lib\YRPP\Documentation\search\files_73.html" />
+    <None Include="lib\YRPP\Documentation\search\files_74.html" />
+    <None Include="lib\YRPP\Documentation\search\files_75.html" />
+    <None Include="lib\YRPP\Documentation\search\files_76.html" />
+    <None Include="lib\YRPP\Documentation\search\files_77.html" />
+    <None Include="lib\YRPP\Documentation\search\files_78.html" />
+    <None Include="lib\YRPP\Documentation\search\files_79.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_5f.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_6a.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_6b.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_6e.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_6f.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_7a.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_7e.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_61.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_62.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_63.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_64.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_65.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_66.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_67.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_68.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_69.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_70.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_71.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_72.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_73.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_74.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_75.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_76.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_77.html" />
+    <None Include="lib\YRPP\Documentation\search\functions_78.html" />
+    <None Include="lib\YRPP\Documentation\search\namespaces_75.html" />
+    <None Include="lib\YRPP\Documentation\search\nomatches.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_62.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_63.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_64.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_65.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_66.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_70.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_72.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_76.html" />
+    <None Include="lib\YRPP\Documentation\search\typedefs_77.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_5f.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_6a.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_6b.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_6c.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_6d.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_6e.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_6f.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_7a.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_61.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_62.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_63.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_64.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_65.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_66.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_67.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_68.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_69.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_70.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_71.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_72.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_73.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_74.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_75.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_76.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_77.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_78.html" />
+    <None Include="lib\YRPP\Documentation\search\variables_79.html" />
+    <None Include="lib\YRPP\Documentation\___loader_8h.html" />
+    <None Include="lib\YRPP\Documentation\___loader_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\___loader_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_a_i_trigger_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_a_i_trigger_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_a_i_trigger_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_a_s_m_macros_8h.html" />
+    <None Include="lib\YRPP\Documentation\_a_s_m_macros_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_a_s_m_macros_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_abstract_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_abstract_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_abstract_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_abstract_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_abstract_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_abstract_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_aircraft_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_aircraft_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_aircraft_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_aircraft_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_aircraft_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_aircraft_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_airstrike_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_airstrike_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_airstrike_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_alpha_shape_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_alpha_shape_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_alpha_shape_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_anim_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_anim_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_anim_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_anim_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_anim_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_anim_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_array_classes_8h.html" />
+    <None Include="lib\YRPP\Documentation\_array_classes_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_array_classes_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_audio_8h.html" />
+    <None Include="lib\YRPP\Documentation\_audio_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_audio_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_plain_xlat_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_darken_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_warp_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_warp_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_warp_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_alpha_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_warp_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_warp_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_warp_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent25_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_warp_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_warp_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_warp_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_alpha_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_warp_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_warp_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_warp_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent50_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_warp_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_warp_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_warp_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_alpha_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_warp_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_warp_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_warp_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_lucent75_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_remap_dest_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_remap_dest_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_remap_dest_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_remap_xlat_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_remap_xlat_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_remap_xlat_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_alpha_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_mult_write_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_mult_write_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_mult_write_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_write_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_write_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_write_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_xlat_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_alpha_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_z_read_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_z_read_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_z_remap_xlat_z_read_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_zremap_xlat_z_read_write_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_zremap_xlat_z_read_write_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_trans_zremap_xlat_z_read_write_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent_write_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent_write_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent_write_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent50_nonzero_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent50_nonzero_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent50_nonzero_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent50_zero_alpha_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent50_zero_alpha_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blit_translucent50_zero_alpha_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_blitters_8h.html" />
+    <None Include="lib\YRPP\Documentation\_blitters_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_blitters_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_bomb_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_bomb_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_bomb_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_bomb_list_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_bomb_list_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_bomb_list_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_building_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_building_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_building_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_building_light_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_building_light_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_building_light_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_building_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_building_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_building_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_bullet_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_bullet_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_bullet_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_bullet_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_bullet_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_bullet_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_c_c_file_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_c_c_file_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_c_c_file_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_c_c_i_n_i_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_c_c_i_n_i_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_c_c_i_n_i_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_c_d_8h.html" />
+    <None Include="lib\YRPP\Documentation\_c_d_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_c_d_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_c_r_t_8h.html" />
+    <None Include="lib\YRPP\Documentation\_c_r_t_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_c_r_t_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_campaign_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_campaign_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_capture_manager_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_capture_manager_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_capture_manager_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_cell_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_cell_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_cell_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_cell_spread_8h.html" />
+    <None Include="lib\YRPP\Documentation\_cell_spread_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_cell_spread_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_color_scheme_8h.html" />
+    <None Include="lib\YRPP\Documentation\_color_scheme_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_color_scheme_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_command_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_command_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_command_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_conversions_8h.html" />
+    <None Include="lib\YRPP\Documentation\_conversions_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_conversions_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_convert_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_convert_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_convert_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_disk_laser_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_disk_laser_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_disk_laser_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_display_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_display_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_display_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_drawing_8h.html" />
+    <None Include="lib\YRPP\Documentation\_drawing_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_drawing_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_e_bolt_8h.html" />
+    <None Include="lib\YRPP\Documentation\_e_bolt_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_e_bolt_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_e_m_pulse_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_e_m_pulse_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_e_m_pulse_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_factory_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_factory_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_factory_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_file_system_8h.html" />
+    <None Include="lib\YRPP\Documentation\_file_system_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_file_system_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_foot_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_foot_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_foot_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_g_screen_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_g_screen_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_g_screen_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_game_classes_8h.html" />
+    <None Include="lib\YRPP\Documentation\_game_classes_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_game_classes_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_game_mode_options_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_game_mode_options_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_game_mode_options_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_general_definitions_8h.html" />
+    <None Include="lib\YRPP\Documentation\_general_definitions_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_general_definitions_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_general_structures_8h.html" />
+    <None Include="lib\YRPP\Documentation\_general_structures_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_general_structures_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_generic_list_8h.html" />
+    <None Include="lib\YRPP\Documentation\_generic_list_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_generic_list_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_get_c_d_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_get_c_d_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_h_v_a_8h.html" />
+    <None Include="lib\YRPP\Documentation\_h_v_a_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_h_v_a_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_house_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_house_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_house_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_house_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_house_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_house_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_includer_8h.html" />
+    <None Include="lib\YRPP\Documentation\_includer_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_includer_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_infantry_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_infantry_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_infantry_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_infantry_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_infantry_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_infantry_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_interfaces_8h.html" />
+    <None Include="lib\YRPP\Documentation\_interfaces_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_interfaces_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_ion_8h.html" />
+    <None Include="lib\YRPP\Documentation\_ion_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_ion_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_ion_blast_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_ion_blast_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_ion_blast_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_isometric_tile_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_isometric_tile_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_laser_draw_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_laser_draw_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_laser_draw_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_light_source_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_light_source_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_light_source_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_line_trail_8h.html" />
+    <None Include="lib\YRPP\Documentation\_line_trail_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_line_trail_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_link_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_link_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_link_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_load_options_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_load_options_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_load_progress_manager_8h.html" />
+    <None Include="lib\YRPP\Documentation\_load_progress_manager_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_load_progress_manager_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_locomotion_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_locomotion_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_locomotion_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_m_p_game_mode_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_m_p_game_mode_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_m_p_game_mode_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_m_p_teams_8h.html" />
+    <None Include="lib\YRPP\Documentation\_m_p_teams_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_m_p_teams_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_macro_8h.html" />
+    <None Include="lib\YRPP\Documentation\_macro_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_macro_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_map_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_map_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_map_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_map_seed_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_map_seed_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_memory_8h.html" />
+    <None Include="lib\YRPP\Documentation\_memory_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_memory_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_message_box_8h.html" />
+    <None Include="lib\YRPP\Documentation\_message_box_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_message_box_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_message_list_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_message_list_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_message_list_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_mission_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_mission_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_mission_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_mix_file_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_mix_file_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_mix_file_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_mouse_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_mouse_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_mouse_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_network_events_8h.html" />
+    <None Include="lib\YRPP\Documentation\_network_events_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_network_events_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_neuron_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_neuron_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_neuron_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_object_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_object_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_object_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_object_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_object_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_object_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_other_8h.html" />
+    <None Include="lib\YRPP\Documentation\_other_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_other_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_overlay_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_overlay_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_overlay_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_overlay_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_overlay_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_overlay_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_p_c_x_8h.html" />
+    <None Include="lib\YRPP\Documentation\_p_c_x_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_p_c_x_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_parasite_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_parasite_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_parasite_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_particle_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_system_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_particle_system_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_system_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_system_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_particle_system_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_system_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_particle_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_particle_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_power_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_power_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_power_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_progress_screen_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_progress_screen_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_rad_beam_8h.html" />
+    <None Include="lib\YRPP\Documentation\_rad_beam_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_rad_beam_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_rad_site_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_rad_site_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_rad_site_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_radar_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_radar_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_radar_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_radar_event_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_radar_event_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_radar_event_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_radio_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_radio_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_radio_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_randomizer_8h.html" />
+    <None Include="lib\YRPP\Documentation\_randomizer_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_randomizer_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_rules_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_rules_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_rules_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_s_h_p_8h.html" />
+    <None Include="lib\YRPP\Documentation\_s_h_p_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_s_h_p_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_scenario_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_scenario_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_scenario_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_script_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_script_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_script_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_script_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_script_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_script_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_session_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_session_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_session_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_side_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_side_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_side_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_sidebar_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_sidebar_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_sidebar_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_slave_manager_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_slave_manager_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_slave_manager_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_smudge_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_smudge_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_smudge_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_smudge_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_smudge_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_smudge_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_spawn_manager_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_spawn_manager_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_spawn_manager_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_specific_structures_8h.html" />
+    <None Include="lib\YRPP\Documentation\_specific_structures_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_specific_structures_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_spotlight_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_spotlight_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_spotlight_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_static_inits_8cpp.html" />
+    <None Include="lib\YRPP\Documentation\_static_inits_8cpp_source.html" />
+    <None Include="lib\YRPP\Documentation\_static_inits_8cpp-source.html" />
+    <None Include="lib\YRPP\Documentation\_string_table_8h.html" />
+    <None Include="lib\YRPP\Documentation\_string_table_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_string_table_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_super_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_super_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_super_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_super_weapon_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_super_weapon_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_super_weapon_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_surface_8h.html" />
+    <None Include="lib\YRPP\Documentation\_surface_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_surface_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_swizzle_manager_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_swizzle_manager_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_swizzle_manager_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_syringe_8h.html" />
+    <None Include="lib\YRPP\Documentation\_syringe_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_syringe_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_t_action_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_t_action_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_t_action_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_t_event_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_t_event_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_t_event_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_tactical_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_tactical_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_tactical_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_task_force_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_task_force_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_task_force_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_team_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_team_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_team_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_team_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_team_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_team_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_techno_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_techno_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_techno_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_techno_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_techno_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_techno_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_teleport_locomotion_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_teleport_locomotion_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_teleport_locomotion_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_template_8h.html" />
+    <None Include="lib\YRPP\Documentation\_template_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_template_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_temporal_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_temporal_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_temporal_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_terrain_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_terrain_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_terrain_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_terrain_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_terrain_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_terrain_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_theater_8h.html" />
+    <None Include="lib\YRPP\Documentation\_theater_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_theater_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_transition_timer_8h.html" />
+    <None Include="lib\YRPP\Documentation\_transition_timer_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_transition_timer_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_trigger_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_trigger_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_trigger_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_type_8h.html" />
+    <None Include="lib\YRPP\Documentation\_type_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_type_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_u_i_8h.html" />
+    <None Include="lib\YRPP\Documentation\_u_i_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_u_i_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_unit_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_unit_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_unit_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_unit_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_unit_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_unit_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_unsorted_8h.html" />
+    <None Include="lib\YRPP\Documentation\_unsorted_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_unsorted_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_v_tables_8h.html" />
+    <None Include="lib\YRPP\Documentation\_v_tables_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_v_tables_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_v_x_l_8h.html" />
+    <None Include="lib\YRPP\Documentation\_v_x_l_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_v_x_l_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_vault_8h.html" />
+    <None Include="lib\YRPP\Documentation\_vault_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_vault_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_voc_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_voc_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_voc_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_vox_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_vox_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_vox_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_w_w_mouse_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_w_w_mouse_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_w_w_mouse_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_warhead_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_warhead_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_warhead_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_wave_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_wave_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_wave_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_waypoint_path_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_waypoint_path_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_waypoint_path_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_weapon_type_class_8h.html" />
+    <None Include="lib\YRPP\Documentation\_weapon_type_class_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_weapon_type_class_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_allocator_8h.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_allocator_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_allocator_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_d_draw_8h.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_d_draw_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_d_draw_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_math_8h.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_math_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_math_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_math_vector_8h.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_math_vector_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_math_vector_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_p_p_8h.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_p_p_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_p_p_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_p_p_core_8h.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_p_p_core_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\_y_r_p_p_core_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\annotated.html" />
+    <None Include="lib\YRPP\Documentation\class_a_buffer_class.html" />
+    <None Include="lib\YRPP\Documentation\class_a_buffer_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_a_i_difficulty.html" />
+    <None Include="lib\YRPP\Documentation\class_a_i_difficulty-members.html" />
+    <None Include="lib\YRPP\Documentation\class_a_i_trigger_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_a_i_trigger_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_abstract_class.html" />
+    <None Include="lib\YRPP\Documentation\class_abstract_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_abstract_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_abstract_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_aircraft_class.html" />
+    <None Include="lib\YRPP\Documentation\class_aircraft_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_aircraft_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_aircraft_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_airstrike_class.html" />
+    <None Include="lib\YRPP\Documentation\class_airstrike_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_allocator.html" />
+    <None Include="lib\YRPP\Documentation\class_allocator-members.html" />
+    <None Include="lib\YRPP\Documentation\class_alpha_shape_class.html" />
+    <None Include="lib\YRPP\Documentation\class_alpha_shape_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_anim_class.html" />
+    <None Include="lib\YRPP\Documentation\class_anim_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_anim_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_anim_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_audio.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_i_d_x_data.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_i_d_x_data-members.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_i_d_x_entry.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_i_d_x_entry-members.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_i_d_x_header.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_i_d_x_header-members.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_stream.html" />
+    <None Include="lib\YRPP\Documentation\class_audio_stream-members.html" />
+    <None Include="lib\YRPP\Documentation\class_audio-members.html" />
+    <None Include="lib\YRPP\Documentation\class_b_surface.html" />
+    <None Include="lib\YRPP\Documentation\class_b_surface-members.html" />
+    <None Include="lib\YRPP\Documentation\class_base_class.html" />
+    <None Include="lib\YRPP\Documentation\class_base_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_base_node_class.html" />
+    <None Include="lib\YRPP\Documentation\class_base_node_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_plain_xlat-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_darken.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_darken_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_darken_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_darken_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_darken_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_darken-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha_z_read_warp.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha_z_read_warp-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_z_read_warp.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_z_read_warp-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent25-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha_z_read_warp.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha_z_read_warp-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_z_read_warp.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_z_read_warp-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent50-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha_z_read_warp.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha_z_read_warp-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_z_read_warp.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_z_read_warp-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_lucent75-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_remap_dest.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_remap_dest-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_remap_xlat.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_remap_xlat-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_alpha_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_alpha_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_alpha_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_alpha_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_mult_write_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_mult_write_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_write_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_write_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_xlat-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_alpha_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_alpha_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_alpha_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_alpha_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_z_read.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat_z_read-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_z_remap_xlat-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_zremap_xlat_z_read_write.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_trans_zremap_xlat_z_read_write-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_translucent_write_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_translucent_write_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_translucent50_nonzero_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_translucent50_nonzero_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_translucent50_zero_alpha.html" />
+    <None Include="lib\YRPP\Documentation\class_blit_translucent50_zero_alpha-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blitter.html" />
+    <None Include="lib\YRPP\Documentation\class_blitter_core.html" />
+    <None Include="lib\YRPP\Documentation\class_blitter_core-members.html" />
+    <None Include="lib\YRPP\Documentation\class_blitter-members.html" />
+    <None Include="lib\YRPP\Documentation\class_bomb_class.html" />
+    <None Include="lib\YRPP\Documentation\class_bomb_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_bomb_list_class.html" />
+    <None Include="lib\YRPP\Documentation\class_bomb_list_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_brain_class.html" />
+    <None Include="lib\YRPP\Documentation\class_brain_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_buffer_i_o_file_class.html" />
+    <None Include="lib\YRPP\Documentation\class_buffer_i_o_file_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_building_anim_slot.html" />
+    <None Include="lib\YRPP\Documentation\class_building_anim_slot-members.html" />
+    <None Include="lib\YRPP\Documentation\class_building_class.html" />
+    <None Include="lib\YRPP\Documentation\class_building_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_building_light_class.html" />
+    <None Include="lib\YRPP\Documentation\class_building_light_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_building_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_building_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_bullet_class.html" />
+    <None Include="lib\YRPP\Documentation\class_bullet_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_bullet_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_bullet_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_c_c_file_class.html" />
+    <None Include="lib\YRPP\Documentation\class_c_c_file_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_c_c_i_n_i_class.html" />
+    <None Include="lib\YRPP\Documentation\class_c_c_i_n_i_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_c_d.html" />
+    <None Include="lib\YRPP\Documentation\class_c_d_drive_manager_class.html" />
+    <None Include="lib\YRPP\Documentation\class_c_d_drive_manager_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_c_d_file_class.html" />
+    <None Include="lib\YRPP\Documentation\class_c_d_file_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_c_d-members.html" />
+    <None Include="lib\YRPP\Documentation\class_c_r_c32.html" />
+    <None Include="lib\YRPP\Documentation\class_c_r_c32-members.html" />
+    <None Include="lib\YRPP\Documentation\class_c_r_t.html" />
+    <None Include="lib\YRPP\Documentation\class_c_r_t-members.html" />
+    <None Include="lib\YRPP\Documentation\class_campaign_class.html" />
+    <None Include="lib\YRPP\Documentation\class_campaign_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_capture_manager_class.html" />
+    <None Include="lib\YRPP\Documentation\class_capture_manager_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_class.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_sequence.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_sequence_applicator.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_sequence_applicator-members.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_sequence-members.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_spread.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_spread_applicator.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_spread_applicator-members.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_spread_iterator.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_spread_iterator-members.html" />
+    <None Include="lib\YRPP\Documentation\class_cell_spread-members.html" />
+    <None Include="lib\YRPP\Documentation\class_chrono_screen_effect.html" />
+    <None Include="lib\YRPP\Documentation\class_chrono_screen_effect-members.html" />
+    <None Include="lib\YRPP\Documentation\class_color_scheme.html" />
+    <None Include="lib\YRPP\Documentation\class_color_scheme-members.html" />
+    <None Include="lib\YRPP\Documentation\class_command_class.html" />
+    <None Include="lib\YRPP\Documentation\class_command_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_r_07_08_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_r_07_08_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_r_07_p1_00_8_8_8_08_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_r_07_p1_00_8_8_8_08_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_r_07_p1_08_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_r_07_p1_08_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t[]_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t[]_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t[_n]_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t[_n]_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t_01_5_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t_01_5_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t_01_6_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t_01_6_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t_01_c_1_1_5_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t_3_01_t_01_c_1_1_5_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_compound_t-members.html" />
+    <None Include="lib\YRPP\Documentation\class_consume_u_d_c.html" />
+    <None Include="lib\YRPP\Documentation\class_consume_u_d_c_3_01_t_00_01false_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_consume_u_d_c_3_01void_00_01convert__possible_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_consume_u_d_c-members.html" />
+    <None Include="lib\YRPP\Documentation\class_conversions.html" />
+    <None Include="lib\YRPP\Documentation\class_conversions-members.html" />
+    <None Include="lib\YRPP\Documentation\class_convert_class.html" />
+    <None Include="lib\YRPP\Documentation\class_convert_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_counter_class.html" />
+    <None Include="lib\YRPP\Documentation\class_counter_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_crate.html" />
+    <None Include="lib\YRPP\Documentation\class_crate-members.html" />
+    <None Include="lib\YRPP\Documentation\class_d_surface.html" />
+    <None Include="lib\YRPP\Documentation\class_d_surface-members.html" />
+    <None Include="lib\YRPP\Documentation\class_direct_draw_wrap.html" />
+    <None Include="lib\YRPP\Documentation\class_direct_draw_wrap-members.html" />
+    <None Include="lib\YRPP\Documentation\class_direction.html" />
+    <None Include="lib\YRPP\Documentation\class_direction-members.html" />
+    <None Include="lib\YRPP\Documentation\class_disk_laser_class.html" />
+    <None Include="lib\YRPP\Documentation\class_disk_laser_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_display_class.html" />
+    <None Include="lib\YRPP\Documentation\class_display_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_drawing.html" />
+    <None Include="lib\YRPP\Documentation\class_drawing-members.html" />
+    <None Include="lib\YRPP\Documentation\class_dynamic_vector_class.html" />
+    <None Include="lib\YRPP\Documentation\class_dynamic_vector_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_e_bolt.html" />
+    <None Include="lib\YRPP\Documentation\class_e_bolt-members.html" />
+    <None Include="lib\YRPP\Documentation\class_e_m_pulse_class.html" />
+    <None Include="lib\YRPP\Documentation\class_e_m_pulse_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_extended_register.html" />
+    <None Include="lib\YRPP\Documentation\class_extended_register-members.html" />
+    <None Include="lib\YRPP\Documentation\class_f_p_u_control.html" />
+    <None Include="lib\YRPP\Documentation\class_f_p_u_control-members.html" />
+    <None Include="lib\YRPP\Documentation\class_factory_class.html" />
+    <None Include="lib\YRPP\Documentation\class_factory_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_file_class.html" />
+    <None Include="lib\YRPP\Documentation\class_file_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_file_system.html" />
+    <None Include="lib\YRPP\Documentation\class_file_system-members.html" />
+    <None Include="lib\YRPP\Documentation\class_fire_error.html" />
+    <None Include="lib\YRPP\Documentation\class_fire_error-members.html" />
+    <None Include="lib\YRPP\Documentation\class_flasher_class.html" />
+    <None Include="lib\YRPP\Documentation\class_foot_class.html" />
+    <None Include="lib\YRPP\Documentation\class_foot_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_g_screen_class.html" />
+    <None Include="lib\YRPP\Documentation\class_g_screen_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_game.html" />
+    <None Include="lib\YRPP\Documentation\class_game_mode.html" />
+    <None Include="lib\YRPP\Documentation\class_game_mode_options_class.html" />
+    <None Include="lib\YRPP\Documentation\class_game_mode_options_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_game_mode-members.html" />
+    <None Include="lib\YRPP\Documentation\class_game-members.html" />
+    <None Include="lib\YRPP\Documentation\class_generic_list.html" />
+    <None Include="lib\YRPP\Documentation\class_generic_list-members.html" />
+    <None Include="lib\YRPP\Documentation\class_generic_node.html" />
+    <None Include="lib\YRPP\Documentation\class_generic_node-members.html" />
+    <None Include="lib\YRPP\Documentation\class_get_c_d_class.html" />
+    <None Include="lib\YRPP\Documentation\class_get_c_d_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_health_state.html" />
+    <None Include="lib\YRPP\Documentation\class_health_state-members.html" />
+    <None Include="lib\YRPP\Documentation\class_house_class.html" />
+    <None Include="lib\YRPP\Documentation\class_house_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_house_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_house_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_i_i_ds.html" />
+    <None Include="lib\YRPP\Documentation\class_i_i_ds-members.html" />
+    <None Include="lib\YRPP\Documentation\class_i_n_i_class.html" />
+    <None Include="lib\YRPP\Documentation\class_i_n_i_class_1_1_i_n_i_entry.html" />
+    <None Include="lib\YRPP\Documentation\class_i_n_i_class_1_1_i_n_i_entry-members.html" />
+    <None Include="lib\YRPP\Documentation\class_i_n_i_class_1_1_i_n_i_section.html" />
+    <None Include="lib\YRPP\Documentation\class_i_n_i_class_1_1_i_n_i_section-members.html" />
+    <None Include="lib\YRPP\Documentation\class_i_n_i_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_imports.html" />
+    <None Include="lib\YRPP\Documentation\class_imports-members.html" />
+    <None Include="lib\YRPP\Documentation\class_index_bitfield.html" />
+    <None Include="lib\YRPP\Documentation\class_index_bitfield-members.html" />
+    <None Include="lib\YRPP\Documentation\class_infantry_class.html" />
+    <None Include="lib\YRPP\Documentation\class_infantry_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_infantry_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_infantry_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_ion.html" />
+    <None Include="lib\YRPP\Documentation\class_ion_blast_class.html" />
+    <None Include="lib\YRPP\Documentation\class_ion_blast_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_class_t.html" />
+    <None Include="lib\YRPP\Documentation\class_is_class_t-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_enum_t.html" />
+    <None Include="lib\YRPP\Documentation\class_is_enum_t-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01bool_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01bool_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01char_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01char_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01double_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01double_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01float_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01float_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01long_01double_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01long_01double_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01char_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01char_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01int_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01int_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01long_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01long_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01short_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01signed_01short_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01char_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01char_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01int_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01int_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01long_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01long_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01short_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01unsigned_01short_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01void_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01void_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01wchar__t_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t_3_01wchar__t_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_is_funda_t-members.html" />
+    <None Include="lib\YRPP\Documentation\class_isometric_tile_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_isometric_tile_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_laser_draw_class.html" />
+    <None Include="lib\YRPP\Documentation\class_laser_draw_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_layer.html" />
+    <None Include="lib\YRPP\Documentation\class_layer_class.html" />
+    <None Include="lib\YRPP\Documentation\class_layer_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_layer-members.html" />
+    <None Include="lib\YRPP\Documentation\class_light_convert_class.html" />
+    <None Include="lib\YRPP\Documentation\class_light_convert_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_light_source_class.html" />
+    <None Include="lib\YRPP\Documentation\class_light_source_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_lightning_storm.html" />
+    <None Include="lib\YRPP\Documentation\class_lightning_storm-members.html" />
+    <None Include="lib\YRPP\Documentation\class_limited_register.html" />
+    <None Include="lib\YRPP\Documentation\class_limited_register-members.html" />
+    <None Include="lib\YRPP\Documentation\class_line_trail.html" />
+    <None Include="lib\YRPP\Documentation\class_line_trail-members.html" />
+    <None Include="lib\YRPP\Documentation\class_link_class.html" />
+    <None Include="lib\YRPP\Documentation\class_link_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_list.html" />
+    <None Include="lib\YRPP\Documentation\class_list-members.html" />
+    <None Include="lib\YRPP\Documentation\class_load_options_class.html" />
+    <None Include="lib\YRPP\Documentation\class_load_options_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_load_progress_manager.html" />
+    <None Include="lib\YRPP\Documentation\class_load_progress_manager-members.html" />
+    <None Include="lib\YRPP\Documentation\class_locomotion_class.html" />
+    <None Include="lib\YRPP\Documentation\class_locomotion_class_1_1_c_l_s_i_ds.html" />
+    <None Include="lib\YRPP\Documentation\class_locomotion_class_1_1_c_l_s_i_ds-members.html" />
+    <None Include="lib\YRPP\Documentation\class_locomotion_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_battle_class.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_battle_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_combat_team.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_combat_team-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_free_for_all_class.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_free_for_all_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_game_mode_class.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_game_mode_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_man_battle_class.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_man_battle_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_megawealth_class.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_megawealth_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_siege_attacker_team.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_siege_attacker_team-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_siege_class.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_siege_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_siege_defender_team.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_siege_defender_team-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_team.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_team-members.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_unholy_alliance_class.html" />
+    <None Include="lib\YRPP\Documentation\class_m_p_unholy_alliance_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_map_class.html" />
+    <None Include="lib\YRPP\Documentation\class_map_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_map_seed_class.html" />
+    <None Include="lib\YRPP\Documentation\class_map_seed_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_math.html" />
+    <None Include="lib\YRPP\Documentation\class_math-members.html" />
+    <None Include="lib\YRPP\Documentation\class_message_box.html" />
+    <None Include="lib\YRPP\Documentation\class_message_box-members.html" />
+    <None Include="lib\YRPP\Documentation\class_message_list_class.html" />
+    <None Include="lib\YRPP\Documentation\class_message_list_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mission_class.html" />
+    <None Include="lib\YRPP\Documentation\class_mission_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mission_control_class.html" />
+    <None Include="lib\YRPP\Documentation\class_mission_control_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mix_file_class.html" />
+    <None Include="lib\YRPP\Documentation\class_mix_file_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mot_lib.html" />
+    <None Include="lib\YRPP\Documentation\class_mot_lib-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_class.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_cursor.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_cursor_type.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_cursor_type-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_cursor-members.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_event.html" />
+    <None Include="lib\YRPP\Documentation\class_mouse_event-members.html" />
+    <None Include="lib\YRPP\Documentation\class_movie_info.html" />
+    <None Include="lib\YRPP\Documentation\class_movie_info-members.html" />
+    <None Include="lib\YRPP\Documentation\class_movie_unlockable_info.html" />
+    <None Include="lib\YRPP\Documentation\class_movie_unlockable_info-members.html" />
+    <None Include="lib\YRPP\Documentation\class_networking.html" />
+    <None Include="lib\YRPP\Documentation\class_networking-members.html" />
+    <None Include="lib\YRPP\Documentation\class_neuron_class.html" />
+    <None Include="lib\YRPP\Documentation\class_neuron_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_node.html" />
+    <None Include="lib\YRPP\Documentation\class_node-members.html" />
+    <None Include="lib\YRPP\Documentation\class_object_class.html" />
+    <None Include="lib\YRPP\Documentation\class_object_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_object_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_object_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_overlay_class.html" />
+    <None Include="lib\YRPP\Documentation\class_overlay_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_overlay_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_overlay_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_p_c_x.html" />
+    <None Include="lib\YRPP\Documentation\class_p_c_x-members.html" />
+    <None Include="lib\YRPP\Documentation\class_parasite_class.html" />
+    <None Include="lib\YRPP\Documentation\class_parasite_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_class.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_system_class.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_system_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_system_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_system_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_particle_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_passengers_class.html" />
+    <None Include="lib\YRPP\Documentation\class_passengers_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_power_class.html" />
+    <None Include="lib\YRPP\Documentation\class_power_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_progress_screen_class.html" />
+    <None Include="lib\YRPP\Documentation\class_progress_screen_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_psy_dom.html" />
+    <None Include="lib\YRPP\Documentation\class_psy_dom-members.html" />
+    <None Include="lib\YRPP\Documentation\class_psychic_dominator_status.html" />
+    <None Include="lib\YRPP\Documentation\class_psychic_dominator_status-members.html" />
+    <None Include="lib\YRPP\Documentation\class_r_e_g_i_s_t_e_r_s.html" />
+    <None Include="lib\YRPP\Documentation\class_r_e_g_i_s_t_e_r_s-members.html" />
+    <None Include="lib\YRPP\Documentation\class_r_l_e_blitter.html" />
+    <None Include="lib\YRPP\Documentation\class_r_l_e_blitter_core.html" />
+    <None Include="lib\YRPP\Documentation\class_r_l_e_blitter_core-members.html" />
+    <None Include="lib\YRPP\Documentation\class_r_l_e_blitter-members.html" />
+    <None Include="lib\YRPP\Documentation\class_rad_beam.html" />
+    <None Include="lib\YRPP\Documentation\class_rad_beam_type.html" />
+    <None Include="lib\YRPP\Documentation\class_rad_beam_type-members.html" />
+    <None Include="lib\YRPP\Documentation\class_rad_beam-members.html" />
+    <None Include="lib\YRPP\Documentation\class_rad_site_class.html" />
+    <None Include="lib\YRPP\Documentation\class_rad_site_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_radar_class.html" />
+    <None Include="lib\YRPP\Documentation\class_radar_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_radar_event_class.html" />
+    <None Include="lib\YRPP\Documentation\class_radar_event_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_radio_class.html" />
+    <None Include="lib\YRPP\Documentation\class_radio_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_randomizer.html" />
+    <None Include="lib\YRPP\Documentation\class_randomizer-members.html" />
+    <None Include="lib\YRPP\Documentation\class_raw_file_class.html" />
+    <None Include="lib\YRPP\Documentation\class_raw_file_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_rules_class.html" />
+    <None Include="lib\YRPP\Documentation\class_rules_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_scenario_class.html" />
+    <None Include="lib\YRPP\Documentation\class_scenario_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_script_class.html" />
+    <None Include="lib\YRPP\Documentation\class_script_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_script_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_script_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_session_class.html" />
+    <None Include="lib\YRPP\Documentation\class_session_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_side_class.html" />
+    <None Include="lib\YRPP\Documentation\class_side_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_sidebar_class.html" />
+    <None Include="lib\YRPP\Documentation\class_sidebar_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_slave_manager_class.html" />
+    <None Include="lib\YRPP\Documentation\class_slave_manager_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_smudge_class.html" />
+    <None Include="lib\YRPP\Documentation\class_smudge_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_smudge_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_smudge_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_spawn_manager_class.html" />
+    <None Include="lib\YRPP\Documentation\class_spawn_manager_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_spotlight_behaviour.html" />
+    <None Include="lib\YRPP\Documentation\class_spotlight_behaviour-members.html" />
+    <None Include="lib\YRPP\Documentation\class_spotlight_class.html" />
+    <None Include="lib\YRPP\Documentation\class_spotlight_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_stack_register.html" />
+    <None Include="lib\YRPP\Documentation\class_stack_register-members.html" />
+    <None Include="lib\YRPP\Documentation\class_stage_class.html" />
+    <None Include="lib\YRPP\Documentation\class_string_table.html" />
+    <None Include="lib\YRPP\Documentation\class_string_table-members.html" />
+    <None Include="lib\YRPP\Documentation\class_super_class.html" />
+    <None Include="lib\YRPP\Documentation\class_super_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_super_weapon_type.html" />
+    <None Include="lib\YRPP\Documentation\class_super_weapon_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_super_weapon_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_super_weapon_type-members.html" />
+    <None Include="lib\YRPP\Documentation\class_surface.html" />
+    <None Include="lib\YRPP\Documentation\class_surface-members.html" />
+    <None Include="lib\YRPP\Documentation\class_swizzle_manager_class.html" />
+    <None Include="lib\YRPP\Documentation\class_swizzle_manager_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_swizzle_pointer_class.html" />
+    <None Include="lib\YRPP\Documentation\class_swizzle_pointer_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_t_action_class.html" />
+    <None Include="lib\YRPP\Documentation\class_t_action_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_t_event_class.html" />
+    <None Include="lib\YRPP\Documentation\class_t_event_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_tactical_class.html" />
+    <None Include="lib\YRPP\Documentation\class_tactical_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_task_force_class.html" />
+    <None Include="lib\YRPP\Documentation\class_task_force_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_team_class.html" />
+    <None Include="lib\YRPP\Documentation\class_team_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_team_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_team_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_techno_class.html" />
+    <None Include="lib\YRPP\Documentation\class_techno_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_techno_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_techno_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_teleport_locomotion_class.html" />
+    <None Include="lib\YRPP\Documentation\class_teleport_locomotion_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_temporal_class.html" />
+    <None Include="lib\YRPP\Documentation\class_temporal_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_terrain_class.html" />
+    <None Include="lib\YRPP\Documentation\class_terrain_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_terrain_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_terrain_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_timer_struct.html" />
+    <None Include="lib\YRPP\Documentation\class_timer_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\class_trajectory.html" />
+    <None Include="lib\YRPP\Documentation\class_trajectory-members.html" />
+    <None Include="lib\YRPP\Documentation\class_trigger_class.html" />
+    <None Include="lib\YRPP\Documentation\class_trigger_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_type_list.html" />
+    <None Include="lib\YRPP\Documentation\class_type_list-members.html" />
+    <None Include="lib\YRPP\Documentation\class_type_t.html" />
+    <None Include="lib\YRPP\Documentation\class_type_t-members.html" />
+    <None Include="lib\YRPP\Documentation\class_u_i.html" />
+    <None Include="lib\YRPP\Documentation\class_u_i-members.html" />
+    <None Include="lib\YRPP\Documentation\class_unit_class.html" />
+    <None Include="lib\YRPP\Documentation\class_unit_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_unit_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_unit_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t_3_01_dynamic_vector_class_3_01_side_class_01_5_01_4_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t_3_01_dynamic_vector_class_3_01_side_class_01_5_01_4_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t_3_01_side_class_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t_3_01_side_class_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t_3_01_vector_class_3_01_side_class_01_5_01_4_01_4.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t_3_01_vector_class_3_01_side_class_01_5_01_4_01_4-members.html" />
+    <None Include="lib\YRPP\Documentation\class_v_t-members.html" />
+    <None Include="lib\YRPP\Documentation\class_vector_class.html" />
+    <None Include="lib\YRPP\Documentation\class_vector_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_vector2_d.html" />
+    <None Include="lib\YRPP\Documentation\class_vector2_d-members.html" />
+    <None Include="lib\YRPP\Documentation\class_vector3_d.html" />
+    <None Include="lib\YRPP\Documentation\class_vector3_d-members.html" />
+    <None Include="lib\YRPP\Documentation\class_visual_type.html" />
+    <None Include="lib\YRPP\Documentation\class_visual_type-members.html" />
+    <None Include="lib\YRPP\Documentation\class_voc_class.html" />
+    <None Include="lib\YRPP\Documentation\class_voc_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_vox_class.html" />
+    <None Include="lib\YRPP\Documentation\class_vox_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_vox_lib.html" />
+    <None Include="lib\YRPP\Documentation\class_vox_lib-members.html" />
+    <None Include="lib\YRPP\Documentation\class_w_w_mouse_class.html" />
+    <None Include="lib\YRPP\Documentation\class_w_w_mouse_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_warhead_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_warhead_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_wave_class.html" />
+    <None Include="lib\YRPP\Documentation\class_wave_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_waypoint_class.html" />
+    <None Include="lib\YRPP\Documentation\class_waypoint_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_waypoint_path_class.html" />
+    <None Include="lib\YRPP\Documentation\class_waypoint_path_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_weapon_type_class.html" />
+    <None Include="lib\YRPP\Documentation\class_weapon_type_class-members.html" />
+    <None Include="lib\YRPP\Documentation\class_x_surface.html" />
+    <None Include="lib\YRPP\Documentation\class_x_surface-members.html" />
+    <None Include="lib\YRPP\Documentation\class_x_y.html" />
+    <None Include="lib\YRPP\Documentation\class_x_y-members.html" />
+    <None Include="lib\YRPP\Documentation\class_z_buffer_class.html" />
+    <None Include="lib\YRPP\Documentation\class_z_buffer_class-members.html" />
+    <None Include="lib\YRPP\Documentation\classe_d_d_coop_level.html" />
+    <None Include="lib\YRPP\Documentation\classe_d_d_coop_level-members.html" />
+    <None Include="lib\YRPP\Documentation\classe_file_mode.html" />
+    <None Include="lib\YRPP\Documentation\classe_file_mode-members.html" />
+    <None Include="lib\YRPP\Documentation\classes.html" />
+    <None Include="lib\YRPP\Documentation\classretfunc.html" />
+    <None Include="lib\YRPP\Documentation\classretfunc__bool.html" />
+    <None Include="lib\YRPP\Documentation\classretfunc__bool-members.html" />
+    <None Include="lib\YRPP\Documentation\classretfunc__fixed.html" />
+    <None Include="lib\YRPP\Documentation\classretfunc__fixed-members.html" />
+    <None Include="lib\YRPP\Documentation\classretfunc-members.html" />
+    <None Include="lib\YRPP\Documentation\dir_10eefb4ece531a6f61eb0c4b25712be1.html" />
+    <None Include="lib\YRPP\Documentation\dir_3771d41e4636ea69f5c145876a347526.html" />
+    <None Include="lib\YRPP\Documentation\dir_172705eb351eba9ea3e67839a448208e.html" />
+    <None Include="lib\YRPP\Documentation\dir_d8a4d585e4a3bed8b51f5b3ab36e59d0.html" />
+    <None Include="lib\YRPP\Documentation\dir_f65534ef8218155ebbbcdb4eded228d2.html" />
+    <None Include="lib\YRPP\Documentation\dirs.html" />
+    <None Include="lib\YRPP\Documentation\fakewindows_8h.html" />
+    <None Include="lib\YRPP\Documentation\fakewindows_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\fakewindows_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\files.html" />
+    <None Include="lib\YRPP\Documentation\functions.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x6a.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x6b.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x6c.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x6d.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x6e.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x6f.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x7a.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x7e.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x61.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x62.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x63.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x64.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x65.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x66.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x67.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x68.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x69.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x70.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x71.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x72.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x73.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x74.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x75.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x76.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x77.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x78.html" />
+    <None Include="lib\YRPP\Documentation\functions_0x79.html" />
+    <None Include="lib\YRPP\Documentation\functions_enum.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x6c.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x6d.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x6e.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x6f.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x62.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x63.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x64.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x65.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x66.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x67.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x68.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x69.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x70.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x72.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x73.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x74.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x75.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x77.html" />
+    <None Include="lib\YRPP\Documentation\functions_eval_0x79.html" />
+    <None Include="lib\YRPP\Documentation\functions_func.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x6a.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x6b.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x6c.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x6d.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x6e.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x6f.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x7a.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x7e.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x61.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x62.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x63.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x64.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x65.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x66.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x67.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x68.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x69.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x70.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x71.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x72.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x73.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x74.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x75.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x76.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x77.html" />
+    <None Include="lib\YRPP\Documentation\functions_func_0x78.html" />
+    <None Include="lib\YRPP\Documentation\functions_type.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x6a.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x6b.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x6c.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x6d.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x6e.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x6f.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x7a.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x61.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x62.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x63.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x64.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x65.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x66.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x67.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x68.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x69.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x70.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x71.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x72.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x73.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x74.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x75.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x76.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x77.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x78.html" />
+    <None Include="lib\YRPP\Documentation\functions_vars_0x79.html" />
+    <None Include="lib\YRPP\Documentation\gcc_8h.html" />
+    <None Include="lib\YRPP\Documentation\gcc_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\gcc_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\globals.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x6a.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x6c.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x6d.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x6e.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x6f.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x7a.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x62.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x63.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x64.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x65.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x66.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x67.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x68.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x69.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x70.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x71.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x72.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x73.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x74.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x75.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x76.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x77.html" />
+    <None Include="lib\YRPP\Documentation\globals_0x78.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x6a.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x6c.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x6d.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x6e.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x6f.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x7a.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x62.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x63.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x64.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x65.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x66.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x67.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x68.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x69.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x70.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x72.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x73.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x74.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x75.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x76.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x77.html" />
+    <None Include="lib\YRPP\Documentation\globals_defs_0x78.html" />
+    <None Include="lib\YRPP\Documentation\globals_func.html" />
+    <None Include="lib\YRPP\Documentation\globals_type.html" />
+    <None Include="lib\YRPP\Documentation\globals_vars.html" />
+    <None Include="lib\YRPP\Documentation\hashmap_8h.html" />
+    <None Include="lib\YRPP\Documentation\hashmap_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\hashmap_8h-source.html" />
+    <None Include="lib\YRPP\Documentation\hierarchy.html" />
+    <None Include="lib\YRPP\Documentation\index.html" />
+    <None Include="lib\YRPP\Documentation\namespace_unsorted.html" />
+    <None Include="lib\YRPP\Documentation\namespacemembers.html" />
+    <None Include="lib\YRPP\Documentation\namespacemembers_vars.html" />
+    <None Include="lib\YRPP\Documentation\namespaces.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_c_o_l_o_r_k_e_y.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_c_o_l_o_r_k_e_y-members.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_p_i_x_e_l_f_o_r_m_a_t.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_p_i_x_e_l_f_o_r_m_a_t-members.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_s_c_a_p_s2.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_s_c_a_p_s2-members.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_s_u_r_f_a_c_e_d_e_s_c2.html" />
+    <None Include="lib\YRPP\Documentation\struct___d_d_s_u_r_f_a_c_e_d_e_s_c2-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_a_i_slots_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_a_i_slots_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_a_i_trigger_condition_comparator.html" />
+    <None Include="lib\YRPP\Documentation\struct_a_i_trigger_condition_comparator-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_abilities_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_abilities_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_anger_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_anger_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_audio_controller.html" />
+    <None Include="lib\YRPP\Documentation\struct_audio_controller-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_base_planning_cell.html" />
+    <None Include="lib\YRPP\Documentation\struct_base_planning_cell_container.html" />
+    <None Include="lib\YRPP\Documentation\struct_base_planning_cell_container-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_base_planning_cell-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_building_anim_frame_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_building_anim_frame_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_building_anim_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_building_anim_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_bullet_data.html" />
+    <None Include="lib\YRPP\Documentation\struct_bullet_data-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_byte_palette.html" />
+    <None Include="lib\YRPP\Documentation\struct_byte_palette-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_c_s_f_header.html" />
+    <None Include="lib\YRPP\Documentation\struct_c_s_f_header-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_c_s_f_label.html" />
+    <None Include="lib\YRPP\Documentation\struct_c_s_f_label-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_c_s_f_string.html" />
+    <None Include="lib\YRPP\Documentation\struct_c_s_f_string-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_cameo_data_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_cameo_data_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_cheat_data.html" />
+    <None Include="lib\YRPP\Documentation\struct_cheat_data-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_color_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_color_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_color16_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_color16_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_control_node.html" />
+    <None Include="lib\YRPP\Documentation\struct_control_node-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_difficulty_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_difficulty_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_dir_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_dir_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_facing_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_facing_struct_1_1_facet.html" />
+    <None Include="lib\YRPP\Documentation\struct_facing_struct_1_1_facet-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_facing_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_flash_data.html" />
+    <None Include="lib\YRPP\Documentation\struct_flash_data-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_game_type_preferences_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_game_type_preferences_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_i_n_i_class_1_1_i_n_i_entry.html" />
+    <None Include="lib\YRPP\Documentation\struct_i_n_i_class_1_1_i_n_i_section.html" />
+    <None Include="lib\YRPP\Documentation\struct_i_n_i_class_1_1_i_n_i_section_1_1_checked_entry.html" />
+    <None Include="lib\YRPP\Documentation\struct_i_n_i_class_1_1_i_n_i_section_1_1_checked_entry_list.html" />
+    <None Include="lib\YRPP\Documentation\struct_i_n_i_class_1_1_i_n_i_section_1_1_checked_entry_list-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_i_n_i_class_1_1_i_n_i_section_1_1_checked_entry-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_line_trail_node.html" />
+    <None Include="lib\YRPP\Documentation\struct_line_trail_node-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_matrix3_d_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_matrix3_d_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_mix_file_class_1_1_generic_mix_files.html" />
+    <None Include="lib\YRPP\Documentation\struct_mix_file_class_1_1_generic_mix_files-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_mix_header_data.html" />
+    <None Include="lib\YRPP\Documentation\struct_mix_header_data-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_net_i_d.html" />
+    <None Include="lib\YRPP\Documentation\struct_net_i_d-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_network_event.html" />
+    <None Include="lib\YRPP\Documentation\struct_network_event-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_owned_tiberium_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_owned_tiberium_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_random_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_random_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_recoil_data.html" />
+    <None Include="lib\YRPP\Documentation\struct_recoil_data-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_rectangle_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_rectangle_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_rocket_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_rocket_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_s_h_p_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_s_h_p_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_scenario_flags.html" />
+    <None Include="lib\YRPP\Documentation\struct_scenario_flags-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_score_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_score_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_scout_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_scout_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_script_action_node.html" />
+    <None Include="lib\YRPP\Documentation\struct_script_action_node-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_sequence_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_sequence_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_session_options_class.html" />
+    <None Include="lib\YRPP\Documentation\struct_session_options_class-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_size_over_one.html" />
+    <None Include="lib\YRPP\Documentation\struct_size_over_one-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_slave_manager_class_1_1_slave_control.html" />
+    <None Include="lib\YRPP\Documentation\struct_slave_manager_class_1_1_slave_control-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_some_voxel_cache.html" />
+    <None Include="lib\YRPP\Documentation\struct_some_voxel_cache-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_spawn_node.html" />
+    <None Include="lib\YRPP\Documentation\struct_spawn_node-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_start_a_i_slots.html" />
+    <None Include="lib\YRPP\Documentation\struct_start_a_i_slots-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_starting_techno_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_starting_techno_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_sub_sequence_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_sub_sequence_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_subzone_tracking_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_subzone_tracking_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_tab_data_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_tab_data_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_task_force_entry_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_task_force_entry_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_taunt_data_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_taunt_data_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_theater.html" />
+    <None Include="lib\YRPP\Documentation\struct_theater-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_tint_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_tint_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_transform_matrix.html" />
+    <None Include="lib\YRPP\Documentation\struct_transform_matrix-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_transform_vector.html" />
+    <None Include="lib\YRPP\Documentation\struct_transform_vector-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_transition_timer.html" />
+    <None Include="lib\YRPP\Documentation\struct_transition_timer-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_turret_control.html" />
+    <None Include="lib\YRPP\Documentation\struct_turret_control-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_unsorted_1_1_color_packer.html" />
+    <None Include="lib\YRPP\Documentation\struct_unsorted_1_1_color_packer-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_variable.html" />
+    <None Include="lib\YRPP\Documentation\struct_variable-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_veterancy_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_veterancy_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_voc_class_header.html" />
+    <None Include="lib\YRPP\Documentation\struct_voc_class_header-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_volume_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_volume_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_vox_file_header.html" />
+    <None Include="lib\YRPP\Documentation\struct_vox_file_header-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_file_header.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_file_header-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_file_tailer.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_file_tailer-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_header.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_header-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_tailer.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_section_tailer-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_voxel_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_warhead_flags.html" />
+    <None Include="lib\YRPP\Documentation\struct_warhead_flags-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_weapon_struct.html" />
+    <None Include="lib\YRPP\Documentation\struct_weapon_struct-members.html" />
+    <None Include="lib\YRPP\Documentation\struct_zone_connection_class.html" />
+    <None Include="lib\YRPP\Documentation\struct_zone_connection_class-members.html" />
+    <None Include="lib\YRPP\Documentation\structargs___receive_damage.html" />
+    <None Include="lib\YRPP\Documentation\structargs___receive_damage-members.html" />
+    <None Include="lib\YRPP\Documentation\structtag_c_o_n_n_e_c_t_d_a_t_a.html" />
+    <None Include="lib\YRPP\Documentation\structtag_c_o_n_n_e_c_t_d_a_t_a-members.html" />
+    <None Include="lib\YRPP\Documentation\xcompile_8h.html" />
+    <None Include="lib\YRPP\Documentation\xcompile_8h_source.html" />
+    <None Include="lib\YRPP\Documentation\xcompile_8h-source.html" />
+    <None Include="Ares\LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ares\ares.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
